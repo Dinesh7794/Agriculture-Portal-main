@@ -35,9 +35,9 @@ function smtp_mailer($to, $subject, $msg)
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
-        $mail->Username = 'bandidinesh503@gmail.com';
-        $mail->Password = 'aurd fmwh hwpj dhzq';
-        $mail->setFrom('bandidinesh503@gmail.com' , "Agriculture Portal");
+        $mail->Username = 'agricultureportal@gmail.com';
+        $mail->Password = 'app password';
+        $mail->setFrom('agricultureportal@gmail.com' , "Agriculture Portal");
         $mail->addAddress($to);
         $mail->isHTML(true);
         $mail->CharSet = 'UTF-8';
