@@ -17,10 +17,10 @@ $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
 
 // SMTP username
-$mail->Username = 'bandidinesh503@gmail.com';
+$mail->Username = 'agricultureportal@gmail.com';
 
 // SMTP password
-$mail->Password = 'aurd fmwh hwpj dhzq';
+$mail->Password = 'app password';
 
 // Enable TLS encryption; `PHPMailer::ENCRYPTION_STARTTLS` encouraged
 $mail->SMTPSecure = 'tls';
@@ -29,8 +29,8 @@ $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 
 // Set sender and recipient
-$mail->setFrom("bandidinesh503@gmail.com", "Agriculture Portal");
-$mail->addAddress('dineshreddyyt143@gmail.com', 'DINESH');
+$mail->setFrom("agricultureportal@gmail.com", "Agriculture Portal");
+$mail->addAddress('recievermail@gmail.com', 'reciver_name');
 
 // Set email subject and body
 $mail->Subject = 'Test Email via PHPMailer';
